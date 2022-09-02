@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Pet Test Suite">
+    <listeners>
+          <listener class-name="com.listeners.TestListener"/>
+        <listener class-name="com.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test name="Pet Store">
+        <classes>
+            <class name="com.pet.Pets" >
+                <methods>
+                    <include name="addUpdatePet"/>
+                    <include name="addDeletePurchaseOrder"/>
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

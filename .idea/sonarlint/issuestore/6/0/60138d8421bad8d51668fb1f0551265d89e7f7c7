@@ -1,0 +1,19 @@
+
+l
+java:S1104"WMake add_pet_url a static final constant or non-public and provide accessors if needed.(ÕÓr
+v
+java:S1104"[Make place_order_url a static final constant or non-public and provide accessors if needed.(Ö‚½¡øÿÿÿÿ
+j
+java:S1104"TMake base_url a static final constant or non-public and provide accessors if needed.(ùâ®
+F
+java:S1444"1Make this "public static add_pet_url" field final(ÕÓr
+P
+java:S1444"5Make this "public static place_order_url" field final(Ö‚½¡øÿÿÿÿ
+D
+java:S1444".Make this "public static base_url" field final(ùâ®
+k
+java:S3008"VRename this field "add_pet_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÓr
+u
+java:S3008"ZRename this field "place_order_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö‚½¡øÿÿÿÿ
+i
+java:S3008"SRename this field "base_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùâ®

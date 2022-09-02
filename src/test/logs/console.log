@@ -1,0 +1,62 @@
+2022-09-02 18:04:19 INFO  TestListener:18 - Running onStart method Pet Store
+2022-09-02 18:04:19 INFO  TestListener:33 - Running onTestStart method addUpdatePet start
+2022-09-02 18:04:19 INFO  CommonUtil:20 - method: generateRandNumber
+2022-09-02 18:04:19 INFO  CommonUtil:33 - Test: addPet 
+2022-09-02 18:04:19 INFO  CommonUtil:114 - method: generateAddPetPayload
+2022-09-02 18:04:21 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:21 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:21 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:25 INFO  CommonUtil:40 - Add pet status code: 200
+2022-09-02 18:04:25 INFO  CommonUtil:41 - Add pet response: {"id":76383,"category":{"id":76383,"name":"category76383"},"name":"Dog76383","photoUrls":[],"tags":[{"id":76383,"name":"tag76383"}],"status":"available"}
+2022-09-02 18:04:25 INFO  CommonUtil:114 - method: generateAddPetPayload
+2022-09-02 18:04:25 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:25 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:25 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:26 INFO  CommonUtil:96 - Update pet status code: 200
+2022-09-02 18:04:26 INFO  CommonUtil:97 - Update pet response: {"id":76383,"category":{"id":76383,"name":"category76383"},"name":"Doggo76383","photoUrls":[],"tags":[{"id":76383,"name":"tag76383"}],"status":"available"}
+2022-09-02 18:04:26 INFO  CommonUtil:60 - Test: getPetInfo 
+2022-09-02 18:04:26 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:26 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:26 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:27 INFO  CommonUtil:67 - Get pet status code: 200
+2022-09-02 18:04:27 INFO  CommonUtil:68 - Get pet response body: {"id":76383,"category":{"id":76383,"name":"category76383"},"name":"Doggo76383","photoUrls":[],"tags":[{"id":76383,"name":"tag76383"}],"status":"available"}
+2022-09-02 18:04:27 INFO  TestListener:56 - Running onTestSkipped method addUpdatePet skipped
+2022-09-02 18:04:27 INFO  TestListener:33 - Running onTestStart method addUpdatePet start
+2022-09-02 18:04:27 INFO  CommonUtil:20 - method: generateRandNumber
+2022-09-02 18:04:27 INFO  CommonUtil:33 - Test: addPet 
+2022-09-02 18:04:27 INFO  CommonUtil:114 - method: generateAddPetPayload
+2022-09-02 18:04:27 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:27 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:27 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:28 INFO  CommonUtil:40 - Add pet status code: 200
+2022-09-02 18:04:28 INFO  CommonUtil:41 - Add pet response: {"id":1011,"category":{"id":1011,"name":"category1011"},"name":"Dog1011","photoUrls":[],"tags":[{"id":1011,"name":"tag1011"}],"status":"available"}
+2022-09-02 18:04:28 INFO  CommonUtil:114 - method: generateAddPetPayload
+2022-09-02 18:04:28 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:28 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:28 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:29 INFO  CommonUtil:96 - Update pet status code: 200
+2022-09-02 18:04:29 INFO  CommonUtil:97 - Update pet response: {"id":1011,"category":{"id":1011,"name":"category1011"},"name":"Doggo1011","photoUrls":[],"tags":[{"id":1011,"name":"tag1011"}],"status":"available"}
+2022-09-02 18:04:29 INFO  CommonUtil:60 - Test: getPetInfo 
+2022-09-02 18:04:29 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:29 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:29 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:31 INFO  CommonUtil:67 - Get pet status code: 200
+2022-09-02 18:04:31 INFO  CommonUtil:68 - Get pet response body: {"id":1011,"category":{"id":1011,"name":"category1011"},"name":"Doggo1011","photoUrls":[],"tags":[{"id":1011,"name":"tag1011"}],"status":"available"}
+2022-09-02 18:04:31 INFO  TestListener:48 - Running onTestFailure method addUpdatePet failed
+2022-09-02 18:04:31 INFO  TestListener:33 - Running onTestStart method addDeletePurchaseOrder start
+2022-09-02 18:04:31 INFO  CommonUtil:20 - method: generateRandNumber
+2022-09-02 18:04:32 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:32 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:32 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:33 INFO  CommonUtil:153 - Add purchase status code: 200
+2022-09-02 18:04:33 INFO  CommonUtil:154 - Add purchase response: {"id":4745,"petId":4745,"quantity":2,"shipDate":"2022-08-31T17:22:30.013+00:00","status":"approved","complete":true}
+2022-09-02 18:04:33 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:33 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:33 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:34 INFO  CommonUtil:169 - Find purchase status code: 200
+2022-09-02 18:04:34 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:34 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:34 INFO  ConfigPropertyReader:20 - method: readConfig
+2022-09-02 18:04:35 INFO  CommonUtil:189 - Delete purchase status code: 200
+2022-09-02 18:04:35 INFO  TestListener:41 - Running onTestSuccess method addDeletePurchaseOrder succeed
+2022-09-02 18:04:35 INFO  TestListener:26 - Running onFinish method Pet Store
