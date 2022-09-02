@@ -48,7 +48,9 @@ The test cases have been configured to run based on the testNg priority. For the
 - petStore\src\test\logs : This folder contains the test log.
 - petStore\pom.xml: This file contains all the maven dependencies and plugins
 - petStore\testNg.xml: This file contains the details of the test suit to be run,listener added etc.
+- petStore\Report_Screenshort.png : This is a screenshot of a sample allure report. Actual allure report can be viewed by executing the command mentioned before in Setup section.
 - SonarLint plugin was used to fix the code quality issues.
+
 
 ### Advantages of the selected tech stack
 - Rest Assured is very flexible in terms of customization. It comes with pre defined functions to deal with parameterization, content types, even reading from files for request body.
