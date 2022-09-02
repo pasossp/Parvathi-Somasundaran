@@ -2,12 +2,12 @@
 <testng-results retried="1" ignored="0" total="3" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-02T18:04:19 IST" name="Pet Test Suite" finished-at="2022-09-02T18:04:35 IST" duration-ms="16727">
+  <suite started-at="2022-09-02T20:07:02 IST" name="Pet Test Suite" finished-at="2022-09-02T20:07:19 IST" duration-ms="17062">
     <groups>
     </groups>
-    <test started-at="2022-09-02T18:04:19 IST" name="Pet Store" finished-at="2022-09-02T18:04:35 IST" duration-ms="16727">
+    <test started-at="2022-09-02T20:07:02 IST" name="Pet Store" finished-at="2022-09-02T20:07:19 IST" duration-ms="17062">
       <class name="com.pet.Pets">
-        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.pet.Pets@15f2eda3]" started-at="2022-09-02T18:04:19 IST" name="beforeTestMethod" finished-at="2022-09-02T18:04:19 IST" duration-ms="63" status="PASS">
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.pet.Pets@604b1e1d]" started-at="2022-09-02T20:07:02 IST" name="beforeTestMethod" finished-at="2022-09-02T20:07:02 IST" duration-ms="78" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethod -->
-        <test-method retried="true" signature="addUpdatePet(org.testng.ITestContext)[pri:0, instance:com.pet.Pets@15f2eda3]" started-at="2022-09-02T18:04:19 IST" name="addUpdatePet" description="Add a pet and update the pet details" finished-at="2022-09-02T18:04:27 IST" duration-ms="8004" status="SKIP">
+        <test-method retried="true" signature="addUpdatePet(org.testng.ITestContext)[pri:0, instance:com.pet.Pets@604b1e1d]" started-at="2022-09-02T20:07:02 IST" name="addUpdatePet" description="Add a pet and update the pet details" finished-at="2022-09-02T20:07:11 IST" duration-ms="8152" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@60f70249]]>
+                <![CDATA[org.testng.TestRunner@558756be]]>
               </value>
             </param>
           </params>
@@ -38,8 +38,8 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:1240)
 at org.testng.Assert.assertEquals(Assert.java:1274)
-at com.utils.BusinessFlows.getPetInfo(BusinessFlows.java:77)
-at com.pet.Pets.addUpdatePet(Pets.java:42)
+at com.utils.BusinessFlows.getPetInfo(BusinessFlows.java:78)
+at com.pet.Pets.addUpdatePet(Pets.java:41)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -78,22 +78,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addUpdatePet -->
-        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.pet.Pets@15f2eda3]" started-at="2022-09-02T18:04:27 IST" name="beforeTestMethod" finished-at="2022-09-02T18:04:27 IST" duration-ms="16" status="PASS">
+        <test-method signature="addUpdatePet(org.testng.ITestContext)[pri:0, instance:com.pet.Pets@604b1e1d]" started-at="2022-09-02T20:07:11 IST" name="addUpdatePet" description="Add a pet and update the pet details" finished-at="2022-09-02T20:07:14 IST" duration-ms="3484" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.pet.Pets.addUpdatePet(org.testng.ITestContext)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTestMethod -->
-        <test-method signature="addUpdatePet(org.testng.ITestContext)[pri:0, instance:com.pet.Pets@15f2eda3]" started-at="2022-09-02T18:04:27 IST" name="addUpdatePet" description="Add a pet and update the pet details" finished-at="2022-09-02T18:04:31 IST" duration-ms="3610" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@60f70249]]>
+                <![CDATA[org.testng.TestRunner@558756be]]>
               </value>
             </param>
           </params>
@@ -109,8 +98,8 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:1240)
 at org.testng.Assert.assertEquals(Assert.java:1274)
-at com.utils.BusinessFlows.getPetInfo(BusinessFlows.java:77)
-at com.pet.Pets.addUpdatePet(Pets.java:42)
+at com.utils.BusinessFlows.getPetInfo(BusinessFlows.java:78)
+at com.pet.Pets.addUpdatePet(Pets.java:41)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -149,18 +138,29 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addUpdatePet -->
-        <test-method signature="addDeletePurchaseOrder(org.testng.ITestContext)[pri:1, instance:com.pet.Pets@15f2eda3]" started-at="2022-09-02T18:04:31 IST" name="addDeletePurchaseOrder" description="Add a purchase order, retrieve the order and delete it" finished-at="2022-09-02T18:04:35 IST" duration-ms="4628" status="PASS">
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.pet.Pets@604b1e1d]" started-at="2022-09-02T20:07:11 IST" name="beforeTestMethod" finished-at="2022-09-02T20:07:11 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@60f70249]]>
+                <![CDATA[public void com.pet.Pets.addUpdatePet(org.testng.ITestContext)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="addDeletePurchaseOrder(org.testng.ITestContext)[pri:1, instance:com.pet.Pets@604b1e1d]" started-at="2022-09-02T20:07:14 IST" name="addDeletePurchaseOrder" description="Add a purchase order, retrieve the order and delete it" finished-at="2022-09-02T20:07:19 IST" duration-ms="4765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@558756be]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addDeletePurchaseOrder -->
-        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.pet.Pets@15f2eda3]" started-at="2022-09-02T18:04:31 IST" name="beforeTestMethod" finished-at="2022-09-02T18:04:31 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.pet.Pets@604b1e1d]" started-at="2022-09-02T20:07:14 IST" name="beforeTestMethod" finished-at="2022-09-02T20:07:14 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>

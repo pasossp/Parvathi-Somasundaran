@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 19.275 s <<< FAILURE! - in TestSuite
-com.pet.Pets.addUpdatePet[org.testng.TestRunner@60f70249](2)  Time elapsed: 3.611 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 20.089 s <<< FAILURE! - in TestSuite
+com.pet.Pets.addUpdatePet[org.testng.TestRunner@558756be](2)  Time elapsed: 3.484 s  <<< FAILURE!
 java.lang.AssertionError: expected [201] but found [200]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -10,8 +10,8 @@ java.lang.AssertionError: expected [201] but found [200]
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:1240)
 	at org.testng.Assert.assertEquals(Assert.java:1274)
-	at com.utils.BusinessFlows.getPetInfo(BusinessFlows.java:77)
-	at com.pet.Pets.addUpdatePet(Pets.java:42)
+	at com.utils.BusinessFlows.getPetInfo(BusinessFlows.java:78)
+	at com.pet.Pets.addUpdatePet(Pets.java:41)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
