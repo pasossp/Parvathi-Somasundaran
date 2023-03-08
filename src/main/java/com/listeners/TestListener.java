@@ -1,13 +1,14 @@
 package com.listeners;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 public class TestListener implements ITestListener {
 
-    private static Logger logger = Logger.getLogger("TestListener");
+    private static Logger logger = LoggerFactory.getLogger(TestListener.class);
     private static String getTestMethodName(ITestResult iTestResult) {
         return iTestResult.getMethod().getConstructorOrMethod().getName();
     }

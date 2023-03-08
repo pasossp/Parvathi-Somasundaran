@@ -2,27 +2,31 @@ package com.utils;
 
 import com.constants.Payload;
 import com.constants.StatusCodes;
+import com.exception.PetException;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.pojo.PurchaseInfo;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import io.qameta.allure.Step;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.apache.log4j.Logger;
 import org.json.JSONObject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.ITestContext;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class BusinessFlows
 
 {
+    private static final Set<Integer> exceptions = new HashSet<>();
+    private static Logger logger = LoggerFactory.getLogger(CommonUtil.class);
     private BusinessFlows()
     {}
-    private static Logger logger = Logger.getLogger("CommonUtil");
 
     /***
      * This method adds the details of a pet in the system
@@ -31,7 +35,7 @@ public class BusinessFlows
      * @param iTestContext to share data about the test
      */
     @Step
-    public static void addPet(String petName, int id, ITestContext iTestContext)
+    public static void addPet(String petName, int id, ITestContext iTestContext) throws PetException
     {
         logger.info("Test: addPet "  );
         // appending random number to name and pet id to avoid duplicates

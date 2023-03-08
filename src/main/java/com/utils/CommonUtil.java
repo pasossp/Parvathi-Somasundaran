@@ -1,12 +1,13 @@
 package com.utils;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.Random;
 
 public class CommonUtil {
 
-
-    private static Logger logger = Logger.getLogger("CommonUtil");
+    private static Logger logger = LoggerFactory.getLogger(CommonUtil.class);
 
     /***
      * This method generates a random number below 99999

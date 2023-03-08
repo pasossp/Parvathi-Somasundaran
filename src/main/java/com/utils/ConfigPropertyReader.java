@@ -1,17 +1,20 @@
 package com.utils;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
-import org.apache.log4j.Logger;
+
 
 
 public class ConfigPropertyReader {
 
-    static InputStream inputStream;
     public static Properties prop = new Properties();
-    private static Logger logger = Logger.getLogger("ConfigPropertyReader");
+    static InputStream inputStream;
+    private static Logger logger = LoggerFactory.getLogger("ConfigPropertyReader");
 
     /***
      * This method reads config.property file and gets the property values

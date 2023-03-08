@@ -1,19 +1,23 @@
 package com.pet;
 
+import com.exception.PetException;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.utils.BusinessFlows;
+import com.utils.CommonUtil;
 import io.qameta.allure.Feature;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.ITestContext;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import com.utils.CommonUtil;
+
 import java.lang.reflect.Method;
-import java.util.logging.Logger;
+
 
 
 public class Pets {
 
-    private static Logger logger = Logger.getLogger("Pets");
+    private static Logger logger = LoggerFactory.getLogger(Pets.class);
 
     @BeforeMethod
 
@@ -25,7 +29,7 @@ public class Pets {
 
     @Test(priority = 0, description = "Add a pet and update the pet details")
     @Feature("Pet Information Flows")
-    public void addUpdatePet(ITestContext iTestContext)
+    public void addUpdatePet(ITestContext iTestContext) throws PetException
     {
         logger.info("Test: addUpdatePet "  );
         String petName = "Dog";
@@ -44,7 +48,8 @@ public class Pets {
 
     @Test(priority = 1, description = "Add a purchase order, retrieve the order and delete it")
     @Feature("Purchase Order Flows")
-    public void addDeletePurchaseOrder(ITestContext iTestContext) throws JsonProcessingException {
+    public void addDeletePurchaseOrder(ITestContext iTestContext) throws JsonProcessingException
+    {
 
         logger.info("Test: addDeletePurchaseOrder "  );
         int purchaseId = CommonUtil.generateRandNumber();
@@ -56,6 +61,8 @@ public class Pets {
 
         //delete purchase order by id
         BusinessFlows.deletePurchaseOrder(purchaseId);
+        // delete functionality is not working in the api,
+        // so validation test cases for deletion is not added here
 
     }
 }
